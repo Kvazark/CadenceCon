@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --backgroundcolor-white: #F2F2F2;;
+  --organizer-green1: #206F6D;
+  --organizer-green2: rgba(32, 111, 109, 0.70);
+  --visitor-red1: rgba(126, 25, 25, 0.90);
+  --visitor-red2: rgba(126, 25, 25, 0.60);
+  --color-black1: #303030;
+  --color-black2: rgba(48, 48, 48, 0.60);
+
+
 }
 
 code {
