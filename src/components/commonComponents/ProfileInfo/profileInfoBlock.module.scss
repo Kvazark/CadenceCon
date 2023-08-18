@@ -1,0 +1,25 @@
+.containerP{
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.fullInput {
+  width: 100%;
+  height: auto;
+
+  label {
+    position: relative;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 5px;
+    color: rgba(39, 35, 37, 0.5);
+  }
+  input{
+
+  }
+}

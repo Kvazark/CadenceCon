@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 14rem;
+    height: 14rem;
+    display: grid;
+    place-items: center;
+    div{
+        //background: blueviolet;
+    }
+    img {
+        width: 13.2rem;
+        height: 13.2rem;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 1px solid rgba(76, 91, 102, 0.4);
+    }
+}

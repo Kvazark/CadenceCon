@@ -1,0 +1,25 @@
+.inputProfile{
+  //background-color: #F2F2F2;
+  width: 100%;
+  height: 36px;
+  margin-top: 5px;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-bottom: 1px solid #303030;
+  &:focus{
+    outline: none;
+  }
+
+}
+
+*::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.49);
+}
+.inputProfile::placeholder{
+  color: rgb(30,30,30,0.7);
+  font-family: 'Hind Vadodara', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+}
