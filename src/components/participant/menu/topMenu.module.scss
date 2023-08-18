@@ -1,0 +1,49 @@
+.blockNav {
+  width: 100vw;
+  height: 3rem;
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+
+  @media (min-width: 900px) {
+    justify-content: flex-end;
+  }
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: var(--participant-red1);
+  height: 100%;
+
+  li {
+    height: 80%;
+    padding-top: 0.4rem;
+    width: 6rem;
+    text-align: center;
+  }
+  @media (min-width: 900px) {
+    padding-right: 3rem;
+    gap: 3rem;
+  }
+  @media (max-width: 900px){
+    width: 100%;
+    justify-content: space-evenly;
+    padding-inline-start: 0; ///браузер вставляет по дефолту, поэтому надо обнулить
+  }
+  @media (max-width: 600px) {
+    justify-content: space-around;
+    &__icons{
+      height: 1.7rem;
+      width: 1.7rem;
+    }
+    li{
+      width: 2.5rem;
+    }
+  }
+
+}
+

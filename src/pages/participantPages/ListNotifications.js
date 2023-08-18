@@ -1,10 +1,12 @@
 import React from 'react';
+import TopMenu from "../../components/participant/menu/TopMenu";
 
 const ListNotifications = () => {
     return (
-        <div>
+        <main>
+            <TopMenu></TopMenu>
             ListNotifications
-        </div>
+        </main>
     );
 };
 

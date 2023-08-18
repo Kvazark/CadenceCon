@@ -1,10 +1,12 @@
 import React from 'react';
+import TopMenu from "../../components/participant/menu/TopMenu";
 
 const Profile = () => {
     return (
-        <div>
+        <main>
+            <TopMenu></TopMenu>
             PROFILE USER
-        </div>
+        </main>
     );
 };
 

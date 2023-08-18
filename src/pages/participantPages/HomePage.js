@@ -1,10 +1,12 @@
 import React from 'react';
+import TopMenu from "../../components/participant/menu/TopMenu";
 
 const HomePage = () => {
     return (
-        <div>
+        <main>
+            <TopMenu></TopMenu>
             HOMEPAGE participant
-        </div>
+        </main>
     );
 };
 
