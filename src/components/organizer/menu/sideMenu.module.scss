@@ -1,0 +1,48 @@
+.blockNav{
+  height: 100%;
+  width: 13vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F9F9F9;
+  box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 4rem;
+    list-style: none;
+    width: 95%;
+  }
+
+  li{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__blockLi{
+    font-family: 'Fira Mono', monospace;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+    @media (max-width: 1650px){
+      padding-left: 0.3rem;
+      gap: 0.5rem;
+      font-size: 20px;
+    }
+  }
+  //@media (max-width: 1350px){
+  //  width: 5vw;
+  //}
+
+}

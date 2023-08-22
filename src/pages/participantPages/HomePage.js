@@ -3,10 +3,10 @@ import TopMenu from "../../components/participant/menu/TopMenu";
 
 const HomePage = () => {
     return (
-        <main>
+        <section>
             <TopMenu></TopMenu>
             HOMEPAGE participant
-        </main>
+        </section>
     );
 };
 

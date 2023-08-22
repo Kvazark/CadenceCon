@@ -11,22 +11,27 @@ const ParticipantProfile = () => {
     const [position, setPosition] = useState('');
 
     const exampleArray =[{
+        id: '1',
         labelInput: 'Имя',
         valueInput: name,
         setValueInput: setName
     },{
+        id: '2',
         labelInput: 'Фамилия',
         valueInput: surname,
         setValueInput: setSurname
     },{
+        id: '3',
         labelInput: 'Отчество',
         valueInput: patronymic,
         setValueInput: setPatronymic
     },{
+        id: '4',
         labelInput: 'Номер телефона',
         valueInput: numberPhone,
         setValueInput: setNumberPhone
     },{
+        id: '5',
         labelInput: 'Должность',
         valueInput: position,
         setValueInput: setPosition
@@ -35,6 +40,7 @@ const ParticipantProfile = () => {
         <section className={styles.container}>
             <UserAvatar idUser={1}></UserAvatar>
             <ProfileInfoBlock listInputs={exampleArray}></ProfileInfoBlock>
+
             {/*<p>{name}</p>*/}
             {/*<p>{surname}</p>*/}
         </section>

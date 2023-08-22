@@ -1,0 +1,15 @@
+.mainButton {
+  width: max-content;
+  padding: 0.3rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Mukta Vaani', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--color-white);
+  &:hover {
+    transform: translateY(0) scale(1.05);
+  }
+}

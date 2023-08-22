@@ -4,11 +4,11 @@ import ParticipantProfile from "../../components/participant/profile/Participant
 
 const Profile = () => {
     return (
-        <main>
+        <section>
             <TopMenu></TopMenu>
             <ParticipantProfile></ParticipantProfile>
             PROFILE USER
-        </main>
+        </section>
     );
 };
 
