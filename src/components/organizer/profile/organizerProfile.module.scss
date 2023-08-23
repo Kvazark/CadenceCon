@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btnExit{
+  box-sizing: border-box;
+  position: absolute;
+  width: 5.3rem;
+  height: 2rem;
+  right: 2rem;
+  top: 1rem;
+  color: var(--organizer-green1);
+  //border-bottom: 1px solid var(--organizer-green1);
+  font-family: 'Mukta Vaani', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

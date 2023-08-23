@@ -4,7 +4,7 @@ import styles from "./profileInfoBlock.module.scss"
 import MainButton from "../UI/buttons/MainButton";
 import {COLORS} from "../../../constants.js"
 
-const ProfileInfoBlock = ({listInputs}, props) => {
+const ProfileInfoBlock = ({listInputs, role}) => {
     function handleClick() {
         console.log('Button clicked!');
     }
@@ -21,7 +21,7 @@ const ProfileInfoBlock = ({listInputs}, props) => {
                 </section>
             </>)}
             <div className={styles.saveInfoProfileBtn}>
-                <MainButton backColor={COLORS.participantRed1} onClick={handleClick}>Сохранить изменения</MainButton>
+                <MainButton backColor={role==='organizer'? COLORS.organizerGreen1 : COLORS.participantRed1} onClick={handleClick}>Сохранить изменения</MainButton>
             </div>
         </div>
     );

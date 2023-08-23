@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import UserAvatar from "./UserAvatar";
 import styles from './participantProfile.module.scss'
-import ProfileInfoBlock from "../../commonComponents/ProfileInfo/ProfileInfoBlock";
+import ProfileInfoBlock from "../../commonComponents/profileInfo/ProfileInfoBlock";
 
 const ParticipantProfile = () => {
     const [name, setName] = useState('');

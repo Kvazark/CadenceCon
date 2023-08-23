@@ -1,15 +1,22 @@
 .mainButton {
   width: max-content;
-  padding: 0.3rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 10px;
   border: none;
   font-family: 'Mukta Vaani', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 27px;
   color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
   &:hover {
     transform: translateY(0) scale(1.05);
+  }
+  span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

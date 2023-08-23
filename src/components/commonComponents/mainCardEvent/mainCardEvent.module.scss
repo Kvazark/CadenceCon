@@ -1,0 +1,131 @@
+.container{
+  overflow-y: hidden;
+  width: 60vw;
+  min-height: fit-content;
+  padding-bottom: 1rem;
+  background: #F2F2F2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &__avatarEvent{
+    width: 100%;
+    height: auto;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    @media (max-width: 900px) and (min-width: 600px){
+      width: auto;
+      height: 13rem;
+      img{
+        object-fit: cover;
+      }
+    }
+    @media (max-width: 600px){
+      width: auto;
+      height: 10rem;
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}
+.eventInfoBlock{
+  border-top: 1px solid rgba(48, 48, 48, 0.1);
+  height: auto;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+
+  h3{
+    margin-bottom: 1.5rem;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #303030;
+    @media (max-width: 900px) and (min-width: 600px){
+      margin-bottom: 1rem;
+      font-size: 20px;
+    }
+    @media (max-width: 600px){
+      margin-bottom: 0.5rem;
+      font-size: 18px;
+    }
+  }
+  &__icons{
+    font-size: 22px;
+    @media (max-width: 900px) and (min-width: 600px){
+      font-size: 18px;
+    }
+    @media (max-width: 600px){
+      font-size: 16px;
+    }
+  }
+
+  p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(48, 48, 48, 0.8);
+    margin: 0 0 0.7rem 0;
+    @media (max-width: 900px) and (min-width: 600px){
+      gap: 0.75rem;
+      font-size: 18px;
+      margin: 0 0 0.55rem 0;
+    }
+    @media (max-width: 600px){
+      gap: 0.5rem;
+      font-size: 16px;
+      margin: 0 0 0.4rem 0;
+    }
+  }
+
+  &__categories{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+
+    div{
+      display: flex;
+      align-items: center;
+      height: 1.5rem;
+      padding: 0.15rem 0.7rem;
+      background: var(--color-grey1);
+      border-radius: 10px;
+      font-family: 'Hind Vadodara', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--color-black2);
+      @media (max-width: 600px){
+        padding: 0.05rem 0.5rem;
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 900px) and (min-width: 600px){
+      margin-top: 0.5rem;
+      gap: 0.5rem;
+    }
+    @media (max-width: 600px){
+      margin-top: 0.3rem;
+      gap: 0.4rem;
+    }
+  }
+  @media (max-width: 600px){
+    width: 95%;
+    padding-left: 3%;
+    padding-right: 0;
+  }
+}
